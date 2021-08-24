@@ -1,0 +1,264 @@
+.download-widget {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-details {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  /* grid-gap: 32px 32px; */
+  width: 80vw;
+  max-width: 50em;
+  margin: 0 auto;
+  display: flex;
+}
+
+.split {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.split-image {
+  min-height: 100%;
+  background-color: rgba(64, 75, 69);
+}
+
+.breakdown {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 64px;
+  background-color: white;
+}
+
+.top {
+  flex: 1;
+  margin: 0 0px 64px 0;
+}
+
+.top h3 {
+  font-family: Saol;
+}
+
+.top p {
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 16px;
+  font-family: Nittigrotesk Light;
+}
+
+#download-image {
+  padding: 40px !important;
+}
+
+a.link {
+  cursor: pointer;
+  -webkit-appearance: none;
+  font-family: Nittigrotesk Regular;
+  transition: background-color 0.5s, color 0.5s;
+  font-size: 16px;
+  border: none;
+  background: #141414;
+  padding: 15px;
+  color: #faf7f3;
+  display: block;
+  width: 160px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.link:hover {
+  background: #faf7f3;
+  color: #141414;
+}
+
+#site-link {
+  display: none;
+}
+
+/* form {
+  display: flex;
+  flex-flow: wrap;
+}
+
+label {
+  z-index: 1;
+  position: absolute;
+  line-height: 50px;
+  padding: 5px 10px;
+  font-family: Leitura News;
+  font-size: 24px;
+  font-weight: 300;
+  color: rgba(20, 20, 20, 0.5);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  pointer-events: none;
+  left: 0;
+}
+
+.input {
+  margin: 0 4px 16px 0;
+  flex-grow: 4;
+  font-family: Leitura News Roman;
+  position: relative;
+}
+
+input {
+  height: 50px;
+  background: #fff;
+  border: none;
+  border-bottom: 1px solid #14141450;
+  -webkit-appearance: none;
+  width: 100%;
+  padding: 5px 10px;
+  color: #141414;
+  vertical-align: bottom;
+  font-size: 20px;
+  line-height: 28px;
+  border-radius: 0;
+}
+
+input:focus,
+input:active,
+input:valid {
+  padding-top: 30px;
+  color: #141414;
+  border-bottom: 1px solid #141414;
+}
+
+input:focus + label,
+input:active + label,
+input:valid + label {
+  font-family: Nittigrotesk Light;
+  font-size: 12px;
+  padding: 5px 10px;
+  line-height: 10px;
+}
+
+.submit {
+  width: 100%;
+}
+
+button {
+  background-color: #141414;
+  color: white;
+  padding: 16px 40px;
+  align-self: flex-start;
+  font-size: 16px;
+  font-family: Nittigrotesk Regular;
+  transition: 0.3s;
+  border: none;
+  cursor: pointer;
+  margin-top: 24px;
+}
+
+button:hover {
+  background-color: #f9f7f3;
+  color: #141414;
+}
+
+.download {
+  display: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+} */
+
+#mc_embed_signup label {
+  font-size: 14px;
+  margin-bottom: 0.4em;
+  display: block;
+  font-family: Nittigrotesk Light;
+}
+
+#mc_embed_signup .mc-field-group {
+  margin-bottom: 20px;
+}
+
+#mc_embed_signup input {
+  -webkit-appearance: none;
+  outline: none;
+  border-radius: 0;
+  font-family: Leitura News Roman;
+  font-size: 20px;
+  font-weight: lighter;
+  border: none;
+  border-bottom: 1px solid #141414;
+  color: #141414;
+  padding: 5px 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+::placeholder {
+  color: #14141450;
+}
+
+#mc_embed_signup input.mce_inline_error {
+  background: transparent;
+  border-bottom: 1px solid #e44e31 !important;
+}
+
+#mc_embed_signup div.mce_inline_error {
+  margin: 0 0 1em 0;
+  padding: 5px 10px;
+  font-family: Nittigrotesk Light;
+  font-weight: bold;
+  z-index: 1;
+  color: #141414;
+}
+
+#mc_embed_signup .mce_inline_error {
+  font-weight: normal !important;
+  padding-left: 0 !important;
+  color: #141414 !important;
+  background-color: #ffffff !important;
+  width: 100%;
+  max-width: 100%;
+}
+
+#mc_embed_signup input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: none;
+  font-family: Nittigrotesk Regular;
+  transition: background-color 0.5s, color 0.5s;
+  font-size: 16px;
+  border: none;
+  background: #141414;
+  padding: 15px;
+  color: #faf7f3;
+  display: block;
+  width: 160px;
+  text-align: center;
+}
+
+#mc_embed_signup input[type="submit"]:hover {
+  background: #faf7f3;
+  color: #141414;
+}
+
+#mc_embed_signup #mce-responses {
+  /* width: 420px !important;
+  max-width: 100% !important; */
+  margin-bottom: 20px !important;
+}
+
+#mce-error-response {
+  font-family: Nittigrotesk Light;
+}
+
+#mce-error-response a {
+  text-decoration: none;
+  color: #141414;
+}
