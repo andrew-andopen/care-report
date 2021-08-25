@@ -55,7 +55,7 @@ const downloader = () => {
     downloadSub.style.opacity = 1;
     downloadTitle.innerHTML = "Enjoy the read!";
     downloadSub.innerHTML =
-      "A copy of the &Open Care Report should be in your downloads folder";
+      "A copy of the &Open Care Report should be in your downloads folder.";
 
     downloadButton.style.display = "none";
     siteLink.style.display = "block";
